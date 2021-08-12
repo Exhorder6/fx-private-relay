@@ -1,4 +1,4 @@
-FROM python:3.7.9
+FROM python:3.8.10
 
 RUN apt-get update && apt-get -y install libpq-dev
 RUN pip install --upgrade pip
