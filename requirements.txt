@@ -1,7 +1,7 @@
 boto3==1.13.9
-Django==2.2.22
+Django==2.2.24
 dj-database-url==0.5.0
-django-allauth==0.39.1
+django-allauth==0.41.0
 django-csp==3.5
 django-debug-toolbar==2.2.1
 django-redis==4.12.1
@@ -9,7 +9,7 @@ django-ftl==0.12.1
 django-referrer-policy==1.0
 dockerflow==2020.6.0
 google-measurement-protocol==1.0.0
-gunicorn==19.9.0
+gunicorn==19.10.0
 markus[datadog]==2.1.0
 pem==20.1.0
 psycopg2==2.8.4
@@ -28,3 +28,4 @@ whitenoise==5.0.1
 coverage==5.0.4
 model-bakery==1.1.0
 pytest-django==3.9.0
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
