@@ -1,5 +1,5 @@
 boto3==1.13.9
-Django==2.2.22
+Django==3.2.15
 dj-database-url==0.5.0
 django-allauth==0.39.1
 django-csp==3.5
@@ -28,3 +28,4 @@ whitenoise==5.0.1
 coverage==5.0.4
 model-bakery==1.1.0
 pytest-django==3.9.0
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
