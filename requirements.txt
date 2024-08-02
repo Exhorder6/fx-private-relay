@@ -1,7 +1,7 @@
 boto3==1.13.9
-Django==2.2.22
+Django==4.2.14
 dj-database-url==0.5.0
-django-allauth==0.39.1
+django-allauth==0.63.6
 django-csp==3.5
 django-debug-toolbar==2.2.1
 django-redis==4.12.1
@@ -28,3 +28,5 @@ whitenoise==5.0.1
 coverage==5.0.4
 model-bakery==1.1.0
 pytest-django==3.9.0
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
